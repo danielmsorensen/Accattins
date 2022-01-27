@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8253490430367784536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6366223336252025022}
+  - component: {fileID: 2773845107117260132}
+  - component: {fileID: 4401481945630450886}
+  m_Layer: 0
+  m_Name: Sound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6366223336252025022
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8253490430367784536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &2773845107117260132
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8253490430367784536}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &4401481945630450886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8253490430367784536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77749c0cffc007842a6d4f516d5cdf95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Wood
+    volume: 1
+    clips:
+    - {fileID: 8300000, guid: 6ea72a6ac7850ba4c8383eb9d71b73e6, type: 3}
+    - {fileID: 8300000, guid: 1ac27728f0f69974eaf0e7cd006b3c9d, type: 3}
+    - {fileID: 8300000, guid: 58f96895e3b76594b88c6ef9d9e4cf78, type: 3}
+    - {fileID: 8300000, guid: ff641912e00f6b744b4d5bafc0f5e4fa, type: 3}
+    - {fileID: 8300000, guid: 47983bbe96bd18848a5d37043d53462c, type: 3}
+  - name: Metal
+    volume: 1
+    clips:
+    - {fileID: 8300000, guid: 006d6f280dd1fb042895b214ce8c4256, type: 3}
+    - {fileID: 8300000, guid: e807f8f325b955345b446ed37f91878c, type: 3}
+    - {fileID: 8300000, guid: 09843f0587b66fb47a6e13f98d56d057, type: 3}
+    - {fileID: 8300000, guid: 912c7cd32655341418b9d18785be95b7, type: 3}
+    - {fileID: 8300000, guid: c21ed2c91b800ab40bbc57c4bbbe5de3, type: 3}
+  - name: Glass
+    volume: 1
+    clips:
+    - {fileID: 8300000, guid: d2d9546eef5feff47be48afa62435470, type: 3}
+    - {fileID: 8300000, guid: 266efafe20f2c0f4e871770b0c754c6b, type: 3}
+    - {fileID: 8300000, guid: 70f4714275882e148865690f5d0672a4, type: 3}
+    - {fileID: 8300000, guid: 1625c397f17d24746b125a76eb134687, type: 3}
+    - {fileID: 8300000, guid: 95a85d0ce7597e040afd81384d962088, type: 3}
+  - name: Flap
+    volume: 0.5
+    clips:
+    - {fileID: 8300000, guid: 714d7da891011a443ae03166a809a98d, type: 3}
+  - name: Rope
+    volume: 0.5
+    clips:
+    - {fileID: 8300000, guid: 384b902ba917c174cb2f190a4787fde2, type: 3}
+  - name: Target
+    volume: 0.5
+    clips:
+    - {fileID: 8300000, guid: 8dc095d62cb057f4eabcf5ea81487bb0, type: 3}
